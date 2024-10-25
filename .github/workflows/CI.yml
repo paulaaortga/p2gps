@@ -31,8 +31,7 @@ jobs:
       - name: build del Front 
         working-directory: src/Clients 
         run: ./gradlew build  
-      - uses: actions/upload-artifact@v4 #guardar en Artifacts de la Acción el resultado del 
-build. No hace falta, es por curiosidad. 
+      - uses: actions/upload-artifact@v4 #guardar en Artifacts de la Acción el resultado del build. No hace falta, es por curiosidad. 
         with: 
            name: Clients 
            path: src/Clients/build/libs 
