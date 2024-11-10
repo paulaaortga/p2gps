@@ -7,4 +7,6 @@ do
 done
 echo "$(date) - connected successfully"
 
-java -jar ordering-*.jar
+#java -jar ordering-*.jar
+
+java -jar /usr/local/app/ordering-*.jar
