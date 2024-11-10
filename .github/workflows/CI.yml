@@ -53,7 +53,7 @@ jobs:
         with: 
           username: ${{ secrets.DOCKERHUB_USERNAME }} # crear los secretos en Settings --> Secrets/Actions/New Repository Secret 
           password: ${{ secrets.DOCKERHUB_PASSWORD }}  
-      - name: Etiquetar con formato DockerHub 
+      - name: Etiquetar con formato DockerHub   
         run: | 
           docker tag p2gps/web ${{ secrets.DOCKERHUB_USERNAME }}/p2gps:web 
           docker tag p2gps/order ${{ secrets.DOCKERHUB_USERNAME }}/p2gps:order 
