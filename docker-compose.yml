@@ -1,5 +1,5 @@
-version: "3" 
-services:# ahora se indican los servicios por el orden en que se quiere que se inicien.  
+version: "3"
+services: # ahora se indican los servicios por el orden en que se quiere que se inicien.  
 #Por ejemplo, mongo debe estar antes de order. 
 #mongo: mismo nombre usado en el run.sh de Order y application.properties. #Se resuelve en una dirección IP. 
   mongo:  
